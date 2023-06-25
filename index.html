@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>ESCAPE THE LABRINTH!!!</h1>
+    <br/>
+    <h2>Choose Wisely.....</h2> 
+    <br/>
+    <br/>
+    <br/>
+    <div id="gameBoard">
+    <table>
+
+
+        <tr>
+          <td id="cave1" onclick= "treasure('cave1')"> click here </td>
+          <td id="cave2" onclick= "treasure('cave2')"> click here </td>
+          <td id="cave3" onclick= "treasure('cave3')"> click here </td>
+        </tr>
+        <tr>
+          <td id="cave4" onclick= "treasure('cave4')"> click here </td>
+          <td id="cave5" onclick= "treasure('cave5')"> click here </td>
+          <td id="cave6" onclick= "treasure('cave6')"> click here </td>
+        
+        </tr>
+        <tr>
+          <td id="cave7" onclick= "treasure('cave7')"> click here </td>
+          <td id="cave8" onclick= "treasure('cave8')"> click here </td>
+          <td id="cave9" onclick= "treasure('cave9')"> click here </td>
+          
+        </tr>
+      </table>
+    </div>
+    <p id="outcome"></p>
+    <h3 id="counter"> turns remaining = 10 </h3>
+    
+<footer>
+  <!-- <button type="button" onClick="refreshPage()">Refresh</button>
+
+ <script>
+function refreshPage(){
+    window.location.reload();
+} 
+</script> -->
+
+</footer>
+    <script type="text/javascript" src="treasure.js"></script>
+</body>
+</html>
